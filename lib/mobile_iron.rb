@@ -1,5 +1,8 @@
 require "mobile_iron/version"
+require "mobile_iron/client"
 
 module MobileIron
-  # Your code goes here...
+
+  class RequestError < StandardError; end
+
 end

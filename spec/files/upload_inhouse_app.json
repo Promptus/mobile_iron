@@ -1,0 +1,63 @@
+{
+    "messages": [
+        {
+            "localizedMessage": "App successfully imported.",
+            "messageKey": "com.mobileiron.vsp.messages.appstore.import.app.success",
+            "type": "Info"
+        }
+    ],
+    "results": {
+        "allowUpdateFromUnmanagedToManaged": false,
+        "altVersion": "1.15.0",
+        "apnsCertificate": null,
+        "appId": "com.mobileiron.test",
+        "averageRating": null,
+        "backupPrevented": true,
+        "catalogType": "APP",
+        "categories": [],
+        "cdnDisabled": true,
+        "cdnServiceEnabled": false,
+        "codeVersion": "1.15.0",
+        "cost": null,
+        "createdAt": null,
+        "creatorType": "ADMIN",
+        "currency": null,
+        "dataProtectionRequired": false,
+        "description": "",
+        "developerName": "",
+        "displayVersion": "1.15.0",
+        "featuredApp": true,
+        "hiddenInAppstore": false,
+        "iconFile": {
+            "fileName": "AppIcon76x76@2x.png",
+            "url": "/mifs/image/app.html?command=getAppArtifact&action=getAppArtifact&appid=952&uuid=ea78ad8d-91c6-473d-aaaa-0b09f1eec73f&ext=PNG",
+            "uuid": "ea78ad8d-91c6-473d-aaaa-0b09f1eec73f"
+        },
+        "id": 952,
+        "installSize": 17249091,
+        "installer": null,
+        "ipadOnly": true,
+        "messagingSupported": false,
+        "modifiedAt": null,
+        "name": "Mobile Iron Test",
+        "noCostApp": false,
+        "overrideURL": null,
+        "perAppVpnByLabelOnly": false,
+        "phoneScreenshots": [],
+        "platformCode": "I",
+        "platformType": "IPhone",
+        "profileExpirationDate": 1490294473000,
+        "provisioningProfile": "Mobile Iron Test b0d0da6d-06c9-4168-8a60-50e19bcdffef",
+        "publicAppStoreType": null,
+        "publicStoreId": null,
+        "pushedOnQuarantine": false,
+        "pushedOnRegistration": false,
+        "quarantinable": true,
+        "ratingCount": null,
+        "removeAppWhenMDMDisabled": true,
+        "tabletScreenshots": [],
+        "updateNotes": "",
+        "version": "1.15.0",
+        "vpnIds": []
+    }
+}

@@ -21,8 +21,15 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
+  spec.required_ruby_version = '~> 2.1'
+
+  spec.add_dependency "faraday", "~> 0.10"
+  spec.add_dependency "oj", "~> 2.18"
+
   spec.add_development_dependency "bundler", "~> 1.13"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
   spec.add_development_dependency "pry", "~> 0.10"
+  spec.add_development_dependency "factory_girl", "~> 4.7"
+  spec.add_development_dependency "webmock", "~> 2.3"
 end
